@@ -1,0 +1,14 @@
+-- 7 Billion Humans (2235) --
+-- 5: Важное решение --
+
+if e == datacube:
+	a:
+	step e
+	jump a
+else:
+	b:
+	step w
+	jump b
+endif
+
+

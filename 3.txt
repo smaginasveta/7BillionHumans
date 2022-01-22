@@ -1,0 +1,10 @@
+-- 7 Billion Humans (2235) --
+-- 3: Отряд Транспортировки --
+
+step s
+pickup c
+step s
+step s
+drop
+
+

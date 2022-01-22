@@ -1,0 +1,50 @@
+-- 7 Billion Humans (2235) --
+-- 38: Найти и уничтожить #3 --
+
+mem1 = nearest shredder
+mem3 = nearest hole
+mem2 = set 99
+a:
+step n
+if c == datacube and
+ c <= mem2:
+	mem2 = set c
+endif
+if n == wall and
+ myitem != datacube:
+	pickup mem2
+endif
+if n == wall and
+ myitem == datacube:
+	drop
+	step mem3
+endif
+if n == wall and
+ myitem != datacube:
+	mem3 = nearest worker
+endif
+if mem3 == nothing:
+	step e
+	comment 0
+	b:
+	step e
+	if c == datacube and
+	 c <= mem2:
+		mem2 = set c
+	endif
+	if c == nothing:
+		pickup mem2
+		giveto mem1
+	endif
+	jump b
+endif
+jump a
+
+
+DEFINE COMMENT 0
+eJztjrtKg0EUhL8n8NLZWkQbkSBBQggiIiIBxUKCBC9oAopI0N8QMIUMFpJCrCxExCJY+QBWooWYIqKS
+QrxAVLy+hpP4FpI5fOzZ3dk9kwDUSpfaSZpAbRTMPnV1EFYnC4TYVDd5eojTS4Qwfa6I+plWjJO6VWMM
+m22Nc9TYzzNgEprzu1mK5lgzf3ekGSHDKIskWSGvLLuscaiAPdb9Z44oG7Q0vCVyqpgbZ3swj6zyYT7d
+fxG4X1KNKaoMUSamM3NuLojr0hmuGdSds1VNjQlemNSr576R0jfL/JD1GvBOwWeyZ0vPzvtEUffscMsB
+V5zSVFP/VL/Gx1RH;
+

@@ -1,0 +1,19 @@
+-- 7 Billion Humans (2235) --
+-- 24: Бюджетная команда #1 --
+
+a:
+if s == printer and
+ myitem == nothing:
+	takefrom s
+endif
+if myitem == datacube and
+ e == worker:
+	giveto e
+endif
+if s == shredder and
+ myitem == datacube:
+	giveto s
+endif
+jump a
+
+

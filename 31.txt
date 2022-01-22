@@ -1,0 +1,17 @@
+-- 7 Billion Humans (2235) --
+-- 31: Шахматная организация --
+
+mem1 = nearest printer
+a:
+takefrom mem1
+step w,n,s,e
+b:
+if myitem == datacube and
+ c == nothing:
+	drop
+	jump a
+endif
+step nw,sw,ne,se
+jump b
+
+

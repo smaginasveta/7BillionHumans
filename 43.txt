@@ -1,0 +1,24 @@
+-- 7 Billion Humans (2235) --
+-- 43: Таблица умножения --
+
+a:
+step n
+if n == wall:
+	mem1 = set c
+	mem2 = set 0
+	b:
+	if c == datacube and
+	 c == 0:
+		mem2 = calc mem2 + 1
+		pickup c
+		mem3 = calc mem1 x mem2
+		write mem3
+		drop
+	else:
+		step s
+	endif
+	jump b
+endif
+jump a
+
+

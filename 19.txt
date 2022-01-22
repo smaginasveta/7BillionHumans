@@ -1,0 +1,10 @@
+-- 7 Billion Humans (2235) --
+-- 19: Создатели контента (исправлено) --
+
+a:
+takefrom s
+giveto se
+step w
+jump a
+
+

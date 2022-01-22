@@ -1,0 +1,19 @@
+-- 7 Billion Humans (2235) --
+-- 34: Найти и уничтожить #1 --
+
+mem1 = nearest shredder
+mem2 = nearest datacube
+step mem2
+a:
+step n
+if c < mem2 and
+ c == datacube:
+	mem2 = set c
+endif
+if n == wall:
+	pickup mem2
+	giveto mem1
+endif
+jump a
+
+

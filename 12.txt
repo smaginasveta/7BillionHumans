@@ -1,0 +1,29 @@
+-- 7 Billion Humans (2235) --
+-- 12: Распаковка --
+
+comment 2
+pickup c
+a:
+if w == wall or
+ sw == datacube:
+	step n
+	drop
+endif
+if nw == datacube:
+	step s
+	drop
+endif
+jump a
+
+
+DEFINE COMMENT 2
+eJztks1LlFEUxn9/QJQQWQwhrULERAaL4W0ccxrMpphw0EnKRiGKqfwiPzAZ6jDR1zjai0MEUSAS4TLM
+RYuQiJAW0ipauY7WES1a9dw78xe09sDhPeeec5/z3Oe87wBLE7VeOkhyyjrJWpxB4ozoW7AE03Qzbz3c
+JUPR+phlgEl1DMkz5NQ5QGBZTiiLck7uMGeIcVu1SaHeUtdNRuQFRpmzCR4yQ4U5loRasfvKHzHPE67L
+czwmYw9IUSJud+iwWWFPE3jcYfrVNWg3NL2g3mviOywf0h3Hx/WEip/Tw0uS9oo0K5rtrJej9BGxfiLk
+abCr7BW3PUzRIC6HKNJkJVo1OyZGCX8nxbKdYc0u8NFyfOEy25q/zRhbesN7cVu3Iitmek9JzN38LqF1
+U9bdFz6/yI7Y/vFxnp/y35r/S5x3hPdN3+92hR/UdvGVs/wV60/S8gPn5e58TH3jdYwkn6XGukV5LbVD
+z7NVHFr00lq92U7T6OME7dppk49j0vM47b6/rDdWaGORIz4PtftqvVaRUiEtPg6kY0DKTmqXXap3EvOx
+zuRZC7SDmk5bqte4tvHWjrHhz6ek1T02pc2mldmwBfEus8pCXZuQN1RZ8/GS7leF42yRSzwlqzxtz8TH
+2QHt5rCUcbaPvB3UH+VsP6sWYZld+y/7B526nJ8;
+

@@ -1,0 +1,14 @@
+-- 7 Billion Humans (2235) --
+-- 18: Разовое уничтожение --
+
+pickup w
+step sw
+a:
+if s == shredder:
+	giveto s
+else:
+	step se
+endif
+jump a
+
+

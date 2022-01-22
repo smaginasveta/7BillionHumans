@@ -1,0 +1,25 @@
+-- 7 Billion Humans (2235) --
+-- 50: Кубическое сообщение --
+
+mem3 = set sw
+mem2 = set 1
+a:
+if mem3 == mem2:
+	b:
+	if mem1 < 5:
+		mem1 = calc mem1 + 1
+		takefrom s
+		giveto se
+		step w
+	else:
+		tell everyone ready
+		end
+	endif
+	jump b
+else:
+	listenfor ready
+	mem2 = calc mem2 + 1
+endif
+jump a
+
+

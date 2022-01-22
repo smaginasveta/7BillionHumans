@@ -1,0 +1,25 @@
+-- 7 Billion Humans (2235) --
+-- 20: Обратная линия --
+
+pickup s
+a:
+if sw == hole:
+	step s
+	b:
+	if e == hole or
+	 e == datacube:
+		drop
+		end
+	else:
+		step e
+	endif
+	jump b
+endif
+step w
+jump a
+comment 0
+
+
+DEFINE COMMENT 0
+eJxjYBgFo2AUjGQAAAQEAAE;
+

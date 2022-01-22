@@ -1,0 +1,14 @@
+-- 7 Billion Humans (2235) --
+-- 46: Вынужденный служебный роман --
+
+a:
+if w == worker:
+	listenfor hi
+	tell w hi
+else:
+	tell e hi
+	listenfor hi
+endif
+jump a
+
+

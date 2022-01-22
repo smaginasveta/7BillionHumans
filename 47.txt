@@ -1,0 +1,9 @@
+-- 7 Billion Humans (2235) --
+-- 47: Автоматизированные удовольствия --
+
+if w == worker:
+	listenfor morning
+endif
+tell e morning
+
+

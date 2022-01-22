@@ -1,0 +1,23 @@
+-- 7 Billion Humans (2235) --
+-- 51: Представьтесь, пожалуйста --
+
+step s
+pickup c
+mem1 = set 1
+write 0
+a:
+if myitem == 0:
+	if w == worker:
+		listenfor ugh
+	endif
+	mem1 = calc w + 1
+	write mem1
+	tell e ugh
+endif
+if w == nothing:
+	tell e ugh
+endif
+sdrop
+jump a
+
+

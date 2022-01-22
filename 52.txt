@@ -1,0 +1,43 @@
+-- 7 Billion Humans (2235) --
+-- 52: Разделитель --
+
+mem4 = nearest datacube
+mem2 = calc mem2 - 2
+mem3 = set 99
+a:
+if w == hole or
+ w == wall:
+	step n
+	mem1 = set 1
+	if mem3 == 99:
+		mem3 = set mem2
+		mem2 = set 0
+	endif
+endif
+if e == hole or
+ e == wall:
+	step n
+	mem1 = set 0
+endif
+if mem1 == 0:
+	step w
+	if mem3 == 99:
+		mem2 = calc mem2 + 1
+	endif
+else:
+	step e
+endif
+if c == mem3 and
+ c == datacube:
+	mem2 = calc mem2 + 1
+endif
+if n == wall and
+ w == wall:
+	step mem4
+	pickup c
+	write mem2
+	drop
+endif
+jump a
+
+

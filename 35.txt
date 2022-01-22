@@ -1,0 +1,9 @@
+-- 7 Billion Humans (2235) --
+-- 35: Арифметика для художников --
+
+pickup s
+mem2 = calc myitem + 1
+write mem2
+drop
+
+
